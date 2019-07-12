@@ -1,0 +1,59 @@
+#controls {
+    width: 321px;
+    height: 124px;
+    border: 1px solid lightgray;
+}
+
+#controls .form {
+    padding: 5px;
+    display: none;
+    font: 12px sans-serif;
+}
+
+#controls .form.active {
+    display: block;
+}
+
+#controls button {
+    outline: none;
+    border-radius: 3px;
+}
+
+#controls button:hover {
+    background-color: lightgray;
+}
+
+#controls .columns {
+    display: flex;
+    flex-direction: row;
+}
+
+#controls .column {
+    margin-right: 5px;
+    height: 90px;
+    width: 150px;
+    overflow: scroll;
+}
+
+#controls .column ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#controls .list-item {
+    cursor: pointer;
+}
+
+#controls .list-item.mine {
+    font-weight: bold;
+}
+
+#controls .list-item:hover {
+    color: blue;
+}
+
+#controls .hidden {
+    display: none;
+}
+

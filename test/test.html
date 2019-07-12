@@ -1,0 +1,76 @@
+<html>
+<head>
+    <script src="../../jquery-3.4.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="test.css" />
+</head>
+<body>
+    <canvas id="canvas" width=200 height=200></canvas>
+    <div id="controls">
+
+        <div class="form active" id="main">
+            <div class="buttons">
+                <button id="next-turn">turn</button>
+            </div>
+            <div class="columns">
+                <div class="column left">
+                    <div class="header"></div>
+                    <div class="details"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="form" id="tile">
+            <div class="buttons">
+                <button class="show-main">main</button>
+            </div>
+            <div class="columns">
+                <div class="column left">
+                    <div class="header"></div>
+                    <div class="details"></div>
+                </div>
+                <div class="column right">
+                </div>
+            </div>
+        </div>
+
+        <div class="form" id="group">
+            <div class="buttons">
+                <button class="show-main">main</button>
+                <button class="show-selected-tile">tile</button>
+                <button class="move-group">move</button>
+                <button class="cancel-move">cancel</button>
+            </div>
+            <div class="columns">
+                <div class="column left">
+                    <div class="header"></div>
+                    <div class="details"></div>
+                </div>
+                <div class="column right">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="../markov/nameData.js"></script>
+    <script src="../markov/markov.js"></script>
+    <script src="../point/point.js"></script>
+    <script src="../point/rect.js"></script>
+    <script src="../faction/design.js"></script>
+    <script src="../faction/group.js"></script>
+    <script src="../faction/faction.js"></script>
+    <script src="../faction/factionManager.js"></script>
+    <script src="../atlas/star.js"></script>
+    <script src="../atlas/tile.js"></script>
+    <script src="../atlas/atlas.js"></script>
+    <script src="../view/view.js"></script>
+    <script src="../grid/gridView.js"></script>
+    <script src="../atlas/atlasView.js"></script>
+    <script src="../splitView/splitView.js"></script>
+    <script src="../form/formField.js"></script>
+    <script src="../form/formView.js"></script>
+    <script src="test.js"></script>
+
+</body>
+</html>
+
