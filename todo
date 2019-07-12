@@ -1,0 +1,12 @@
+groups
+    units and unit attributes
+    unit construction
+    group range commputation based on unit capabilities
+    conflict
+stars
+    resources
+    structures
+    ownership
+scenario setup
+    faction creation
+
